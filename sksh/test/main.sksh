@@ -1,0 +1,32 @@
+Importing A
+#import "a.sksh"
+
+#if PIXEL
+PIXEL TEST
+#endif
+
+#if FRAG
+FRAG TEST
+#endif
+
+#if FRAGMENT
+FRAGMENT TEST
+#endif
+
+#if VERTEX
+VERTEX TEST
+#endif
+
+#if GEO
+GEO TEST
+#endif
+
+#if GEOMETRY
+GEOMETRY TEST
+#endif
+
+#if CUSTOm
+CUSTOM DEFINE HELP
+#endif
+
+#unknown
